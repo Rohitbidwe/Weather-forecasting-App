@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether Weather</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased text-white min-h-screen flex flex-col items-center justify-center p-4 transition-all duration-1000 ease-in-out bg-black" id="app-body">
+    <script src="script.js"></script>
+</body>
+<div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10">
+        <div id="ambient-glow" class="absolute top-[-20%] left-[-20%] w-[80vw] h-[80vw] bg-blue-500/30 rounded-full blur-[120px] mix-blend-screen animate-pulse-slow"></div>
+        <div class="absolute bottom-[-20%] right-[-20%] w-[60vw] h-[60vw] bg-purple-500/20 rounded-full blur-[100px] mix-blend-screen"></div>
+    </div>
+
+    <main class="w-full max-w-[1000px] bg-white/10 backdrop-blur-2xl border border-white/20 rounded-3xl shadow-2xl overflow-hidden fade-in-up">
+        </main>
+</html>
